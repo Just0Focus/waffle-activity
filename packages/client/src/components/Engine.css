@@ -1,0 +1,30 @@
+.app__container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+
+  border: 2px solid #ffffff;
+}
+
+.gui__container {
+  position: fixed;
+  border: 2px solid #ff33ff;
+}
+
+.config__box {
+  position: fixed;
+  z-index: 11;
+  top: 23vh;
+  left: 80vw;
+  width: 19vw;
+  height: 76vh;
+  border: 2px solid #991aff;
+}
+
+.config__cam {
+  position: fixed;
+  z-index: 11;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
